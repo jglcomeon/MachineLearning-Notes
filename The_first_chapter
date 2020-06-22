@@ -1,0 +1,51 @@
+Machine Learning
+- Grew out of work in AI
+- New capability for computers
+Examples:
+- Database mining
+Large datasets from growth of automation/web.
+E.g., Web click data, medical records, biology, engineering
+- Applications can’t program by hand.
+E.g., Autonomous helicopter, handwriting recognition, most of
+Natural Language Processing (NLP), Computer Vision.
+
+机器学习算法
+- Supervised learning
+- Unsupervised learning
+Others: Reinforcement learning, recommender
+systems.
+Also talk about: Practical advice for applying
+learning algorithm
+
+什么是监督学习？
+
+Supervised Learning
+“right answers” given
+
+Regression: Predict continuous
+valued output (price)
+根据已有的数据集，知道输入和输出结果之间的关系。根据这种已知的关系，训练得到一个最优的模型。也就是说，在监督学习中训练数据既有特征(feature)又有标签(label)，通过训练，让机器可以自己找到特征和标签之间的联系，在面对只有特征没有标签的数据时，可以判断出标签。
+
+通俗一点，可以把机器学习理解为我们教机器如何做事情。
+
+监督学习的分类：回归(Regression）、分类（Classification)  
+
+回归(Regression）
+  回归问题是针对于连续型变量的。
+  回归通俗一点就是，对已经存在的点（训练数据）进行分析，拟合出适当的函数模型y=f(x)，这里y就是数据的标签，而对于一个新的自变量x，通过这个函数模型得到标签y。 
+  
+分类（Classification)  
+和回归最大的区别在于，分类是针对离散型的，输出的结果是有限的。
+
+什么是无监督学习？
+
+定义：我们不知道数据集中数据、特征之间的关系，而是要根据聚类或一定的模型得到数据之间的关系。
+
+可以这么说，比起监督学习，无监督学习更像是自学，让机器学会自己做事情，是没有标签（label）的。
+
+接刚刚上面机器学习解释时用到的例子来更好理解一下二者的区别：
+
+对于平时的考试来说，监督学习相当于我们做了很多题目都知道它的标准答案，所以在学习的过程中，我们可以通过对照答案，来分析问题找出方法，下一次在面对没有答案的问题时，往往也可以正确地解决。 而无监督学习，是我们不知道任何的答案，也不知道自己做得对不对，但是做题的过程中，就算不知道答案，我们还是可以大致的将语文，数学，英语这些题目分开，因为这些问题内在还是具有一定的联系。 
+
+
+
